@@ -506,12 +506,12 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffff;
+    background-color: #000000;
 	-webkit-animation: fadeInDown 700ms;
 	animation: fadeInDown 700ms;
 	-webkit-backface-visibility: hidden;
 	border-radius: 0px;
-	background: rgba(255, 255, 255) none repeat;
+	background: rgb(0, 0, 0) none repeat;
 	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
