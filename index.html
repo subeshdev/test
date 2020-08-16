@@ -97,8 +97,8 @@
 
 	<section id="home" class="main-banner parallaxie" style="background: url('uploads/front.jpg')">
 		<div class="heading">
-			<h1>Welcome to Devincorporate</h1>			
-			<h3 class="cd-headline clip is-full-width">
+			<h2 class="subesh" >Welcome to Devincorporate</h2>			
+			<h4 class="cd-headline clip is-full-width">
 				<span>WE PROVIDE </span>
 				<span class="cd-words-wrapper">
 					<b class="is-visible"> Web Development</b>
@@ -113,7 +113,7 @@
 					<a class="get_btn hvr-bounce-to-top" href="#about">Get started</a>
 					<a class="learn_btn hvr-bounce-to-top" href="#contact">Contact Us</a>
 				</div>
-			</h3>
+			</h4>
 		</div>
 	</section>
 
@@ -730,6 +730,20 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
-
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+91 8084725855", // WhatsApp number
+            call_to_action: "Text us", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
 </body>
 </html>
